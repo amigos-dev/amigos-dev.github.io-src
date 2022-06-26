@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+    <header class="homepage-header">
+      <h1>{{.Title}}</h1>
+          {{ with .Params.subtitle }}
+          {{ printf "Debugging trace: %#v" $.Site }}
+          <span class="subtitle">{{.}}</span>
+          {{ end }}
+      {{ partial "top.html" . }}
+      {{ partial "nav.html" . }}
+    </header>
+
+    <div id="all">
+      <section id=welcome class="home-section wg-blank">
+        <div class=home-section-bg></div>
+        <div class=container>
+          <div class="row justify-content-center">
+            <div class="section-heading col-12 mb-3 text-center">
+              <h1 class=mb-0>Welcome 👋</h1>
+            </div>
+            <div class=col-12 text-center>
+              <!-- Pull from content/_index.md -->
+              {{.Content}}
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section id=projects class="home-section wg-blank">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="section-heading col-12 mb-3 text-center">
+              <h1 class=mb-0>Projects</h1>
+            </div>
+            {{ partial "features.html" . }}
+          </div>
+        </div>
+      </section>
+
+      {{ partial "see_more.html" . }}
+      {{ partial "recent_posts.html" . }}
+      {{ partial "footer.html" . }}
+    </div>
+  </body>  
+
+</html>
