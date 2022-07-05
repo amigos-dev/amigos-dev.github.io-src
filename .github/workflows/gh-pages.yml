@@ -1,8 +1,6 @@
-name: github pages
 # For references:
 #   https://github.com/marketplace/actions/github-pages-action
 #     https://github.com/marketplace/actions/hugo-setup
-
 name: GitHub Pages
 
 # Triggers the workflow on push or pull request
