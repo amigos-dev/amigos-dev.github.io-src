@@ -11,6 +11,7 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
+  workflow_dispatch: null
   pull_request:
 
 jobs:

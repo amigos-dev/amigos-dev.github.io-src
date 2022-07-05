@@ -6,6 +6,8 @@
 In order to see your site in action, run Hugo's built-in local server.
 
 ```
+$ git submodule init
+$ git submodule update
 $ hugo server -w -D
 ```
 
