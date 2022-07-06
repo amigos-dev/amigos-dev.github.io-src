@@ -39,5 +39,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-
-
+          external_repository: amigos-dev/amigos-dev.github.io-deploy
+          publish_branch: main
+          cname: amigos.dev
