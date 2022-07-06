@@ -39,6 +39,6 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./docs
-          external_repository: amigos-dev/amigos-dev.github.io-deploy
+          external_repository: amigos-dev/amigos-dev.github.io
           publish_branch: main
           cname: amigos.dev
