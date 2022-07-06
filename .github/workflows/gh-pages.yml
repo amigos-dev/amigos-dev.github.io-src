@@ -1,7 +1,7 @@
 # For references:
 #   https://github.com/marketplace/actions/github-pages-action
 #     https://github.com/marketplace/actions/hugo-setup
-name: GitHub Pages
+name: GitHub Pages -- Production
 
 # Triggers the workflow on push or pull request
 # events but only for the master branch
