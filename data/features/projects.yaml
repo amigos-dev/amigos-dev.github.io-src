@@ -1,7 +1,7 @@
 weight: 4
 name: "Projects"
 icon: "fas fa-lightbulb"
-url: ""
+url: "/features/projects"
 description: "Projects research"
 
 

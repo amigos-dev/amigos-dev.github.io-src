@@ -1,6 +1,8 @@
 baseURL = 'https://amigos-dev.github.io/'
 languageCode = 'en-us'
 title = 'Amigos Development, LLC'
+copyright = "Copyright (c) 2022 - 2023, Amigos Development; All Rights Reserved."
+# MetaDataFormat = ""
 
 theme = "universal"
 publishDir = "docs"
@@ -21,6 +23,20 @@ paginate = 10
 # not pluralize title pages by default
 pluralizelisttitles = false
 
+[author]
+    name = "Amigos Development"
+
+[indexes]
+    tag = "tags"
+    categories = "categories"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+
+[privacy]
+
+
 [menu]
 
 # Main menu
@@ -29,12 +45,6 @@ pluralizelisttitles = false
     identifier = "menu.home"
     url        = "/"
     weight     = 1
-
-[[menu.main]]
-    name       = "Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
 
 [[menu.main]]
     name       = "About"
@@ -239,7 +249,3 @@ pluralizelisttitles = false
 [params.footer.recent_posts]
     enable = true
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  author = "authors"
