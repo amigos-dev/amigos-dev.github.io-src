@@ -16,6 +16,7 @@ jobs:
   # A workflow run is made up of one or more jobs that can run sequentially or in parallel
  deploy:
     runs-on: ubuntu-latest
+    environment: prod
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
@@ -37,7 +38,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          deploy_key: ${{ secrets.GH_PAGES_DEPLOY_KEY }}
           publish_dir: ./docs
           external_repository: amigos-dev/amigos-dev.github.io
           publish_branch: main
