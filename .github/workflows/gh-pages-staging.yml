@@ -1,0 +1,45 @@
+# For references:
+#   https://github.com/marketplace/actions/github-pages-action
+#     https://github.com/marketplace/actions/hugo-setup
+name: GitHub Pages
+
+# Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches:
+      - staging  # Set a branch to deploy
+  workflow_dispatch: null
+  pull_request:
+
+jobs:
+  # A workflow run is made up of one or more jobs that can run sequentially or in parallel
+ deploy:
+    runs-on: ubuntu-latest
+    environment: test
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      # Upload/Commit the contents from publish_dir -> external_repository
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          deploy_key: ${{ secrets.GH_PAGES_DEPLOY_KEY }}
+          publish_dir: ./docs
+          external_repository: amigos-dev/test-amigos-dev.github.io
+          publish_branch: main
+          cname: amigos.dev
