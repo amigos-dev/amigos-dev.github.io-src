@@ -42,4 +42,4 @@ jobs:
           publish_dir: ./docs
           external_repository: amigos-dev/test-amigos-dev.github.io
           publish_branch: main
-          cname: amigos.dev
+          cname: amigosdev.com
