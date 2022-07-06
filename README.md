@@ -1,6 +1,14 @@
 # Amigos Development Corporation
 
 
+## Initializing
+
+Repository uses submodules for themes, cloned under themes subdirectory. 
+To clone:
+```
+ git clone --recursive git@github.com:amigos-dev/amigos-dev.github.io.git
+```
+
 ## Usage
 
 In order to see your site in action, run Hugo's built-in local server.
@@ -19,5 +27,10 @@ For more information check out the official [Hugo documentation](http://gohugo.i
 
 This web site is released under the MIT License. 
 
+## Adding new content
+
+### Blog posts
+
+### Modifying home page
 
 ## Thanks
