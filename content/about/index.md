@@ -10,3 +10,9 @@ Our little company started from the ashes of Surround.io, our first company.
 * John H Ludwig   -- fearless leader and inspirator
 * Samuel McKelvie -- braintrust 
 * Vlad Sadovsky   -- et al
+
+Our location:
+
+*Google Map*
+Embedding Google Map location
+{{< google-maps-location height="400" location="Bellevue,WA,USA" >}}
