@@ -11,7 +11,7 @@ facebook_site: ""
 twitter_site: AmigosDev
 default_sharing_image: img/sharing-default.png
 enableGoogleMaps: true
-googleMapsApiKey: "AIzaSyDAsMpn5oMCf8eRDCACCxpcnZdeJrkWoRs"
+googleMapsApiKey: ""
 latitude: "-12.043333"
 longitude: "-77.028333"
 style: default
