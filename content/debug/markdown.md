@@ -3,9 +3,8 @@ title: "Markdown Rendered"
 date: 2022-07-07T18:30:10-07:00
 draft: false
 ---
-
-Markdown
-===========
+Markdown formatted page
+=========================
 
 I am a paragraph in markdown with line
 wrapping so fit in this width.
@@ -121,7 +120,7 @@ Smiley: &#x1F604;
 
 Embedded HTML: x<sup>2</sup>
 
-Floating image via HTML: <img src="/img/logo.png" style="float: right; padding: 0 0 0 10px"> Follow up text after the image. This honors the floats and wraps around the image, automatically going into the next line.
+Floating image via HTML: <img src="/image/logo.png" style="float: right; padding: 0 0 0 10px"> Follow up text after the image. This honors the floats and wraps around the image, automatically going into the next line.
 
 ## Tables, code blocks and task lists
 
@@ -149,7 +148,7 @@ Floating image via HTML: <img src="/img/logo.png" style="float: right; padding: 
 | 2.  | Line   | 1 |
 | 3.  | Square | 4 |
 
-## Acme website task list
+## Task list
 
 - [x] Get the home page up
 - [x] Update Privacy Policy and Terms of Use

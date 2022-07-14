@@ -6,4 +6,5 @@ draft: true
 
 #### Amigos.development by JHL, SM, VS
   
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Amigos Development looks into technology areas, characterized by innovative nature, non-trivial complexity and interesting possibilities for the short term demonstration. We are researching niches on the boundaries, for example development experience for the emerging non-specialist software platform. 
+
