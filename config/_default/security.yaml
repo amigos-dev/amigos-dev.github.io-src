@@ -1,4 +1,8 @@
-enableInlineShortcodes: true
+#enableInlineShortcodes: true
 funcs:
   getenv:
-    - COMMENTS_TOKEN
+  - ^HUGO_
+  - COMMENTS_TOKEN
+  - GoogleMapsAPIKey
+  - ^GoogleMaps_
+  

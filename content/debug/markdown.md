@@ -232,6 +232,11 @@ if (!tired()) {
 {{</ highlight >}}
 
 
+*Google Map*
+Embedding Google Map location
+{{< google-maps-location height="300" location="Bellevue,WA,USA" >}}
+
+
 ## Inline shortcodes.
 
 ### Inline Shortcode declaration and first use
