@@ -2,6 +2,7 @@
 title: "Projects"
 date: 2022-07-06T11:33:01-07:00
 draft: true
+tags: ["testing"]
 ---
 ## Researching projects:
 

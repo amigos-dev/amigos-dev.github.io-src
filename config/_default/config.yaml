@@ -1,0 +1,27 @@
+baseURL: https://amigos-dev.github.io/
+languageCode : en-us
+title : Amigos Development, LLC
+copyright : Copyright (C) 2022 - 2023, Amigos Development; All Rights Reserved.
+# MetaDataFormat = ""
+
+theme : universal
+publishDir : "docs"
+
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage : en
+# Enable comments by entering your Disqus shortname
+disqusShortname : amigosdev
+# Enable Google Analytics by entering your tracking code
+googleAnalytics : ""
+
+# number of words of summarized post content (default 70)
+summaryLength : 70
+
+# Define the number of posts per page
+paginate : 10
+
+# not pluralize title pages by default
+pluralizelisttitles : false
+
+menus:
+  _merge: deep

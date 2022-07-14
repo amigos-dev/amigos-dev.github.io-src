@@ -1,0 +1,4 @@
+baseURL: https://amigos.dev/
+enableRobotsTXT: true
+minify: true
+buildDrafts: true

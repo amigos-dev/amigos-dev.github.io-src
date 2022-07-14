@@ -1,0 +1,50 @@
+main:
+  - name: Home
+    identifier: main.home
+    url: /
+    weight: 1
+  - name: About
+    identifier: main.about
+    weight: 2
+    url: /about/
+  - name: Blog
+    identifier: main.blog
+    url: /blog/
+    weight: 5
+  - name: FAQ
+    identifier: main.faq
+    url: /faq/
+    weight: 6
+  - name: Contact
+    identifier: main.contact
+    url: /contact/
+    weight: 7
+  - name: Debug
+    identifier: main.debug
+    weight: 9
+  - name : Markdown
+    identifier: main.debug.markdown
+    parent: main.debug
+    url: /debug/markdown/
+    weight: 11
+topbar:
+  - weight: 1
+    name: Phone
+    url: tel:+1 425 999 8888
+    pre: <i class='fas fa-2x fa-phone'></i>
+  - weight: 2
+    name: GitHub
+    url: https://github.com/amigos-dev
+    pre: <i class='fab fa-2x fa-github'></i>
+  - weight: 3
+    name: Facebook
+    url: http://facebook.com
+    pre: <i class='fab fa-2x fa-facebook'></i>
+  - weight: 4
+    name: Twitter
+    url: http://twitter.com
+    pre: <i class='fab fa-2x fa-twitter'></i>
+  - weight: 5
+    name: Email
+    url: mailto:hello@amigos-dev.com
+    pre: <i class='fas fa-2x fa-envelope'></i>

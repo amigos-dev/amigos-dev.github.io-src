@@ -1,0 +1,6 @@
+baseURL: https://amigos-dev.github.io/
+minify: false
+menus:
+  _merge: deep
+params:
+  DebugMenu: true

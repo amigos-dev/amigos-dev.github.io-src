@@ -1,0 +1,5 @@
+baseURL: https://amigosdev.com/
+buildDrafts: true
+minify: false
+params:
+  DebugMenu: true
