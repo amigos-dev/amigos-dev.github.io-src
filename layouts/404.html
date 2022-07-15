@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <body>
+    <div id="all">
+
+      {{ partial "nav.html" . }}
+
+      <div id="content">
+          <div class="container">
+
+              <div class="col-sm-6 col-sm-offset-3" id="error-page">
+
+                  <div class="box">
+
+                      <h3>{{ i18n "404Message"  }}</h3>
+                      <h4 class="text-muted">{{ i18n "404Error"  }}</h4>
+
+                      <p class="buttons"><a href="{{ "/" | relURL }}" class="btn btn-template-main"><i class="fas fa-home"></i> {{ i18n "404NavHome"  }}</a>
+                      </p>
+                  </div>
+
+
+              </div>
+              <!-- /.col-sm-6 -->
+          </div>
+          <!-- /.container -->
+      </div>
+      <!-- /#content -->
+
+  </div>
+  </body>
+</html>
