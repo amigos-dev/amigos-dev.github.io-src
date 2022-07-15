@@ -31,7 +31,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --environment production
+        run: hugo --minify --environment production --buildDrafts
 
       # Upload/Commit the contents from publish_dir -> external_repository
       - name: Deploy
