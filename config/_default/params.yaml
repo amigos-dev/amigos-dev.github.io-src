@@ -1,3 +1,5 @@
+style: green
+
 viewMorePostLink: /blog/
 author: amigos-dev-Vlad
 defaultKeywords:
@@ -14,8 +16,7 @@ enableGoogleMaps: true
 googleMapsApiKey: ""
 latitude: "-12.043333"
 longitude: "-77.028333"
-style: default
-formspree_action: https://formspree.io/sample/of/endpoint
+formspree_action: "https://getform.io/f/913b8751-2104-4a36-a365-0faa8fb3f0d9"
 contact_form_ajax: false
 enableRecaptchaInContactForm: false
 googleRecaptchaKey: site_key_for_google_recaptcha

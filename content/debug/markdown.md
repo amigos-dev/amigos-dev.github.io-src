@@ -233,7 +233,7 @@ if (!tired()) {
 
 
 *Google Map*
-Embedding Google Map location
+Embedding Google Map location, set HUGO_GOOGLE_MAPS_APIKEY environment variable 
 {{< google-maps-location height="300" location="Bellevue,WA,USA" >}}
 
 
